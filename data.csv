@@ -6,8 +6,8 @@ S4,ELINT,15 GHz,FSK,None,R2,-,Radar sweep
 S5,COMINT,3 GHz,PSK,RSA,C1,A1,"“Charlie One to Alpha One, we are under attack!”"
 S6,ELINT,12 GHz,ASK,None,R3,-,Radar burst
 S7,COMINT,4 GHz,OOK,DES,D1,C1,"“Delta One to Charlie One, moving to your position. ETA 5 minutes.”"
-S8,ELINT,8 GHz,BPSK,None,R4,,Radar chirp
-S9,COMINT,6 GHz,QAM,SHA-256,D2,D1,"“Delta Two to Delta One, we have secured the area North of Delta One.”"
+S8,COMINT,4 GHz,QAM,None,D1,A1,"Alpha One, Delta One is moving to support Charlie one."
+S9,COMINT,6 GHz,QAM,SHA-256,D2,D1,"“Delta Two to Delta One, we have secured the area North of Charile One.”"
 S10,ELINT,9 GHz,MSK,None,R5,,Radar frequency hopping
 S11,COMINT,2.4 GHz,FM,None,A2,A1,"“Alpha one, alpha two is proceeding to checkpoint 1.”"
 S12,ELINT,11 GHz,OOK,None,R6,,Radar chirp

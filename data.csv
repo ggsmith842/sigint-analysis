@@ -22,7 +22,7 @@ S20,ELINT,17 GHz,ASK,None,R10,,Radar passive detection
 S21,ELINT,18 GHz,AM,None,R11,,Radar active detection
 S22,COMINT,14.5 GHz,QPSK,AES,C1,A1,“Charlie One to Alpha One area now secure. Significant hostile casualties and damage to local facilities. Requesting medical and engineering support to our position.”
 S23,ELINT,19 GHz,OOK,None,R12,,Radar noise signal
-S24,COMINT,8.5 GHz,QAM,DES,G2,G1,"""Roger, send or interpretation."""
+S24,COMINT,8.5 GHz,QAM,DES,G2,G1,"""Roger, send for interpretation."""
 S25,COMINT,8.5 GHz,QAM,DES,G1,G2,"""Transmitting now over digital. Acknowledge when received."""
 S26,COMINT,15.1 GHz,QAM,MD5,G1,G2,"""2ddb41e689a4c09debd805f1b5c3"""
 S27,COMINT,8.5 GHz,QAM,DES,G2,G1,"""Acknowledge Golf One. Message received. Golf two out."""

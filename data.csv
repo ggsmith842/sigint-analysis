@@ -1,36 +1,37 @@
 Signal ID,Signal Type,Frequency,Modulation,Encryption,Source,Destination,Content
-S1,COMINT,2.4 GHz,FM,RSA,A1,A2,“Alpha Two sitrep?”
+S1,COMINT,2.4 GHz,FM,RSA,A1,A2,"Alpha Two sitrep?"
 S2,ELINT,10 GHz,AM,None,R1,-,Radar pulse
-S3,COMINT,5 GHz,QPSK,AES,B1,B2,"“Bravo One to Bravo Two, we have a target in sight.”"
+S3,COMINT,5 GHz,QPSK,AES,B1,B2,"Bravo One to Bravo Two, we have a target in sight."
 S4,ELINT,15 GHz,FSK,None,R2,-,Radar sweep
-S5,COMINT,3 GHz,PSK,RSA,C1,A1,"“Charlie One to Alpha One, we are under attack!”"
+S5,COMINT,3 GHz,PSK,RSA,C1,A1,"Charlie One to Alpha One, we are under attack!"
 S6,ELINT,12 GHz,ASK,None,R3,-,Radar burst
-S7,COMINT,4 GHz,OOK,DES,D1,C1,"“Delta One to Charlie One, moving to your position. ETA 5 minutes.”"
+S7,COMINT,4 GHz,OOK,DES,D1,C1,"Delta One to Charlie One, moving to your position. ETA 5 minutes."
 S8,COMINT,4 GHz,QAM,None,D1,A1,"Alpha One, Delta One is moving to support Charlie one."
-S9,COMINT,6 GHz,QAM,SHA-256,D2,D1,"“Delta Two to Delta One, we have secured the area North of Charile One.”"
+S9,COMINT,6 GHz,QAM,SHA-256,D2,D1,"Delta Two to Delta One, we have secured the area North of Charile One."
 S10,ELINT,9 GHz,MSK,None,R5,,Radar frequency hopping
-S11,COMINT,2.4 GHz,FM,None,A2,A1,"“Alpha one, alpha two is proceeding to checkpoint 1.”"
+S11,COMINT,2.4 GHz,FM,SHA-256,A2,A1,"Alpha one, alpha two is proceeding to checkpoint 1."
 S12,ELINT,11 GHz,OOK,None,R6,,Radar chirp
-S13,COMINT,8.5 GHz,QAM,DES,G1,G2,"“Golf One to Golf Two, we have intercepted a hostile signal.”"
+S13,COMINT,8.5 GHz,QAM,DES,G1,G2,"Golf One to Golf Two, we have intercepted a hostile signal."
 S14,ELINT,13 GHz,BPSK,None,R7,,Radar doppler shift
 S15,ELINT,12 GHz,ASK,None,R7,-,Radar burst
 S16,ELINT,11 GHz,OOK,None,R6,,Radar chirp
 S17,ELINT,14 GHz,FSK,None,R8,,Radar bistatic signal
-S18,COMINT,11.5 GHz,QAM,SHA-256,J1,J2,"“Juliet One to Juliet Two, radio check?”"
+S18,COMINT,11.5 GHz,QAM,None,J1,J2,"Juliet One to Juliet Two, radio check?"
 S19,ELINT,16 GHz,MSK,None,R9,,Radar inverse synthetic aperture
 S20,ELINT,17 GHz,ASK,None,R10,,Radar passive detection
 S21,ELINT,18 GHz,AM,None,R11,,Radar active detection
-S22,COMINT,14.5 GHz,QPSK,AES,C1,A1,“Charlie One to Alpha One area now secure. Significant hostile casualties and damage to local facilities. Requesting medical and engineering support to our position.”
+S22,COMINT,14.5 GHz,QPSK,AES,C1,A1,Charlie One to Alpha One area now secure. Significant hostile casualties and damage to local facilities. Requesting medical and engineering support to our position.
 S23,ELINT,19 GHz,OOK,None,R12,,Radar noise signal
-S24,COMINT,8.5 GHz,QAM,DES,G2,G1,"""Roger, send for interpretation."""
-S25,COMINT,8.5 GHz,QAM,DES,G1,G2,"""Transmitting now over digital. Acknowledge when received."""
-S26,COMINT,15.1 GHz,QAM,MD5,G1,G2,"""2ddb41e689a4c09debd805f1b5c3"""
-S27,COMINT,8.5 GHz,QAM,DES,G2,G1,"""Acknowledge Golf One. Message received. Golf two out."""
+S24,COMINT,8.5 GHz,QAM,DES,G2,G1,"Roger, send for interpretation."
+S25,COMINT,8.5 GHz,QAM,DES,G1,G2,"Transmitting now over digital. Acknowledge when received."
+S26,COMINT,15.1 GHz,QAM,MD5,G1,G2,"e0df43a4bf3faaab65ed44d0b07a3ce48bc247aebf1796ab61f71085f42362ad"
+S27,COMINT,8.5 GHz,QAM,DES,G2,G1,"Acknowledge Golf One. Message received. Golf two out."
 S28,ELINT,19 GHz,OOK,None,R12,,Radar noise signal
 S29,ELINT,8 GHz,BPSK,None,R4,,Radar chirp
-S30,COMINT,2.4 GHz,FM,None,G2,A1,"""Alpha One, be advised hostile communications indicate a major offensive is planned in your AO. Advise you increase local security checks and advise non-essential personal to shelter in place."""
-S31,COMINT,2.4 GHz,FM,None,A1,G2,"""Understood Alpha One. Recalling Alpha Two to base."""
-S32,COMINT,2.4 GHz,FM,RSA,A1,A2,"""Alpha Two, return to base immediately to assist with security efforts."""
-S33,COMINT,2.4 GHz,FM,RSA,A2,A1,"""Acknowledge Alpha One. Alpha Two returning to base."""
+S30,COMINT,2.4 GHz,FM,None,G2,A1,"Alpha One, be advised hostile communications indicate a major offensive is planned in your AO. Advise you increase local security checks and advise non-essential personal to shelter in place."
+S31,COMINT,2.4 GHz,FM,None,A1,G2,"Understood Alpha One. Recalling Alpha Two to base."
+S32,COMINT,2.4 GHz,FM,RSA,A1,A2,"Alpha Two, return to base immediately to assist with security efforts."
+S33,COMINT,2.4 GHz,FM,RSA,A2,A1,"Acknowledge Alpha One. Alpha Two returning to base."
 S34,ELINT,17 GHz,ASK,None,R10,,Radar passive detection
 S35,ELINT,13 GHz,BPSK,None,R7,,Radar doppler shift
+S36,COMINT,2.4 GHz,FM,None,UNK,,"Operatives in the area. Today's passphrase is 'ski patrol'."
